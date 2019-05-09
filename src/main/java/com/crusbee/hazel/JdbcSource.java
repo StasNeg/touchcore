@@ -10,7 +10,7 @@ import com.hazelcast.jet.pipeline.Sources;
 import java.nio.file.Files;
 
 public class JdbcSource {
-
+    private static final String QUERY = "SELECT * FROM dfs.`C:\\Users\\Stanislav\\IdeaProjects\\catalog-bundle\\module\\src\\test\\resources\\imports\\AcmeCompanyProduct.json` LIMIT 20";
     private static final String MAP_NAME = "userMap";
     private static final String TABLE_NAME = "cp.`employee.json`";
     private static final String JDBC_DRIVER = "org.apache.drill.jdbc.Driver";
@@ -21,7 +21,7 @@ public class JdbcSource {
     private static Pipeline buildPipeline(String connectionUrl) throws ClassNotFoundException {
         Pipeline p = Pipeline.create();
         p.drawFrom(Sources.jdbc(connectionUrl,
-                "SELECT * FROM " + TABLE_NAME + " LIMIT 10",
+                QUERY,
                 resultSet -> new User(resultSet.getString(1), resultSet.getString(2))))
                 .map(user -> {
                     System.out.println("------------- " + user.getId());
