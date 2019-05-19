@@ -65,6 +65,7 @@
                     {
                         "parts": [
                             {
+                                "externalId":"parts543",
                                 "name": [
                                     {
                                         "language": "EN",
@@ -394,6 +395,7 @@
                     {
                         "parts": [
                             {
+                                "externalId":"parts544",
                                 "name": [
                                     {
                                         "language": "EN",
@@ -766,6 +768,7 @@
                     {
                     "parts": [
                         {
+                            "externalId":"parts545",
                             "name": [
                                 {
                                     "language": "EN",
