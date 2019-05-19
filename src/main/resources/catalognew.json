@@ -1,0 +1,1121 @@
+[
+    {
+        "name": [
+            {
+                "language": "EN",
+                "textValue": "Root drinks category"
+            }
+        ],
+        "description": [
+            {
+                "language": "EN",
+                "textValue": "valid text without html tags"
+            }
+        ],
+        "longDescription": [
+            {
+                "language": "EN",
+                "textValue": "valid loooooooooooong text without html tags"
+            }
+        ],
+        "activeStartDate": "2019-04-19T14:35:14.734222+03:00",
+        "activeEndDate": "2019-04-29T14:35:14.7342+03:00",
+        "inventoryType": {
+            "value": "AVAILABLE",
+            "type": "String",
+            "friendlyType": [
+                {
+                    "language": "EN",
+                    "textValue": "Inventory type for drinks"
+                }
+            ],
+            "isRemoved": false,
+            "tenant": {
+                "id": "1111"
+            }
+        },
+        "url": "some_company/catalog/category/drinks",
+        "urlKey": "some_url_key",
+        "overrideGeneratedUrl": false,
+        "taxCode": "a43",
+        "externalId": "GFH543",
+        "childCategories": [
+            {
+                "name": [
+                    {
+                        "language": "EN",
+                        "textValue": "Cold non-alcoholic drinks"
+                    }
+                ],
+                "description": [
+                    {
+                        "language": "EN",
+                        "textValue": "Valid text without html tags"
+                    }
+                ],
+                "longDescription": [
+                    {
+                        "language": "EN",
+                        "textValue": "Valid loooooooooooong text without html tags"
+                    }
+                ],
+                "activeStartDate": "2019-04-19T14:35:14.734222+03:00",
+                "activeEndDate": "2019-04-29T14:35:14.7342+03:00",
+                "products": [
+                    {
+                        "parts": [
+                            {
+                                "name": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Coca-cola"
+                                    }
+                                ],
+                                "description": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Valid text without html tags"
+                                    }
+                                ],
+                                "longDescription": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Valid very loooooong text without html tags"
+                                    }
+                                ],
+                                "scu": {
+                                    "refId": "123456"
+                                },
+
+                                "currentAvailability": 10,
+                                "defaultQuantity": 10,
+                                "minQuantity": 10,
+                                "maxQuantity": 10,
+
+                                "primaryPartType": {
+                                    "value": "BASE",
+                                    "type": "String",
+                                    "isRemoved": false,
+                                    "friendlyType": [
+                                        {
+                                            "language": "EN",
+                                            "textValue": "Coca cola liquid"
+                                        }
+                                    ]
+                                },
+
+                                "isRemoved": false
+                            }
+                        ],
+                        "url": "some_company/catalog/category/drinks/cold/cola",
+                        "generatedUrl": "/some_company/catalog/category/drinks/cold/cola/id",
+                        "externalId": "coldcola1",
+                        "activeStartDate": "2019-02-25T14:21:25.616254+02:00",
+                        "activeEndDate": "2019-03-07T14:21:25.61577+02:00",
+                        "isArchived": false,
+                        "name": [
+                            {
+                                "language": "EN",
+                                "textValue": "Cola"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "language": "EN",
+                                "textValue": "Valid text without html tags"
+                            }
+                        ],
+                        "longDescription": [
+                            {
+                                "language": "EN",
+                                "textValue": "Valid loooooooooooong text without html tags"
+                            }
+                        ],
+                        "isFeaturedProduct": false,
+                        "overrideGeneratedUrl": false,
+                        "isRemoved": false,
+                        "size": {
+                            "tenant": {
+                                "id": "1111"
+                            },
+                            "value": {
+                                "width": 6,
+                                "depth": 6,
+                                "height": 15
+                            },
+                            "sizeConstraint": {
+                                "min": {
+                                    "width": 6,
+                                    "depth": 6,
+                                    "height": 15
+                                },
+                                "max": {
+                                    "width": 6,
+                                    "depth": 6,
+                                    "height": 17
+                                }
+                            },
+                            "type": "String",
+                            "friendlyType": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Coca cola drink XL size"
+                                }
+                            ]
+                        },
+                        "shapes": [
+                            {
+                                "tenant": {
+                                    "id": "1111"
+                                },
+                                "value": "PHYSICAL",
+                                "type": "String",
+                                "friendlyType": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "XL cartoon glass"
+                                    }
+                                ]
+                            }
+                        ],
+                        "deliveryOptions": [
+                            {
+                                "value": "Value of delivery",
+                                "type": "Type of delivery",
+                                "friendlyType": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Fast and quality deliverance"
+                                    }
+                                ],
+                                "tenant": {
+                                    "id": "1111"
+                                }
+                            }
+                        ],
+                        "defaultScu": {
+                            "name": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Xl size of coca-cola drink"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Coca cola drink XL size"
+                                }
+                            ],
+                            "longDescription": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "700 milliliters cartoon glass of some drink "
+                                }
+                            ],
+                            "activeStartDate": "2019-04-19T14:35:14.732628+03:00",
+                            "activeEndDate": "2019-04-29T14:35:14.732612+03:00",
+                            "order": 9999,
+                            "defaultProduct": {
+                                "refId": "123456"
+                            },
+                            "products": [
+                                {
+                                    "refId": "fanta id"
+                                },
+                                {
+                                    "refId": "sprite id"
+                                }
+                            ],
+                            "currentAvailability": 20,
+                            "size": {
+                                "tenant": {
+                                    "id": "1111"
+                                },
+                                "value": {
+                                    "width": 5,
+                                    "depth": 5,
+                                    "height": 5
+                                },
+                                "sizeConstraint": {
+                                    "min": {
+                                        "width": 5,
+                                        "depth": 5,
+                                        "height": 5
+                                    },
+                                    "max": {
+                                        "width": 5,
+                                        "depth": 5,
+                                        "height": 5
+                                    }
+                                },
+                                "type": "XL",
+                                "friendlyType": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "XL Glass"
+                                    }
+                                ]
+                            }
+                        },
+                        "additionalScus": [
+                            {
+                                "name": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "M size of coca-cola drink"
+                                    }
+                                ],
+                                "description": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Coca cola drink M size"
+                                    }
+                                ],
+                                "longDescription": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "300 milliliters cartoon glass of some drink "
+                                    }
+                                ],
+                                "activeStartDate": "2019-04-19T14:35:14.732628+03:00",
+                                "activeEndDate": "2019-04-29T14:35:14.732612+03:00",
+                                "order": 9999,
+                                "defaultProduct": {
+                                    "refId": "123456"
+                                },
+                                "products": [
+                                    {
+                                        "refId": "fanta id"
+                                    },
+                                    {
+                                        "refId": "sprite id"
+                                    }
+                                ],
+                                "currentAvailability": 20,
+                                "size": {
+                                    "tenant": {
+                                        "id": "1111"
+                                    },
+                                    "value": {
+                                        "width": 5,
+                                        "depth": 5,
+                                        "height": 5
+                                    },
+                                    "sizeConstraint": {
+                                        "min": {
+                                            "width": 5,
+                                            "depth": 5,
+                                            "height": 5
+                                        },
+                                        "max": {
+                                            "width": 5,
+                                            "depth": 5,
+                                            "height": 5
+                                        }
+                                    },
+                                    "type": "M",
+                                    "friendlyType": [
+                                        {
+                                            "language": "EN",
+                                            "textValue": "M Glass"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "name": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "L size of coca-cola drink"
+                                    }
+                                ],
+                                "description": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Coca cola drink L size"
+                                    }
+                                ],
+                                "longDescription": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "500 milliliters cartoon glass of some drink "
+                                    }
+                                ],
+                                "activeStartDate": "2019-04-19T14:35:14.732628+03:00",
+                                "activeEndDate": "2019-04-29T14:35:14.732612+03:00",
+                                "order": 9999,
+                                "defaultProduct": {
+                                    "refId": "123456"
+                                },
+                                "products": [
+                                    {
+                                        "refId": "fanta id"
+                                    },
+                                    {
+                                        "refId": "sprite id"
+                                    }
+                                ],
+                                "currentAvailability": 20,
+                                "size": {
+                                    "tenant": {
+                                        "id": "1111"
+                                    },
+                                    "value": {
+                                        "width": 5,
+                                        "depth": 5,
+                                        "height": 5
+                                    },
+                                    "sizeConstraint": {
+                                        "min": {
+                                            "width": 5,
+                                            "depth": 5,
+                                            "height": 5
+                                        },
+                                        "max": {
+                                            "width": 5,
+                                            "depth": 5,
+                                            "height": 5
+                                        }
+                                    },
+                                    "type": "L",
+                                    "friendlyType": [
+                                        {
+                                            "language": "EN",
+                                            "textValue": "L Glass"
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "tenant": {
+                            "id": "1111"
+                        }
+                    },
+                    {
+                        "parts": [
+                            {
+                                "name": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Coca-cola"
+                                    }
+                                ],
+                                "description": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Valid text without html tags"
+                                    }
+                                ],
+                                "longDescription": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Valid very loooooong text without html tags"
+                                    }
+                                ],
+                                "scu": {
+                                    "refId": "123456"
+                                },
+
+                                "currentAvailability": 10,
+                                "defaultQuantity": 10,
+                                "minQuantity": 10,
+                                "maxQuantity": 10,
+
+                                "primaryPartType": {
+                                    "value": "BASE",
+                                    "type": "String",
+                                    "isRemoved": false,
+                                    "friendlyType": [
+                                        {
+                                            "language": "EN",
+                                            "textValue": "Coca cola liquid"
+                                        }
+                                    ]
+                                },
+
+                                "isRemoved": false
+                            }
+                        ],
+                        "url": "some_company/catalog/category/drinks/cold/fanta",
+                        "generatedUrl": "/some_company/catalog/category/drinks/cold/fanta/id",
+                        "externalId": "fantafanta1",
+                        "activeStartDate": "2019-02-25T14:21:25.616254+02:00",
+                        "activeEndDate": "2019-03-07T14:21:25.61577+02:00",
+                        "isArchived": false,
+                        "name": [
+                            {
+                                "language": "EN",
+                                "textValue": "Fanta"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "language": "EN",
+                                "textValue": "Valid text without html tags"
+                            }
+                        ],
+                        "longDescription": [
+                            {
+                                "language": "EN",
+                                "textValue": "Valid loooooooooooong text without html tags"
+                            }
+                        ],
+                        "isFeaturedProduct": false,
+                        "overrideGeneratedUrl": false,
+                        "isRemoved": false,
+                        "size": {
+                            "tenant": {
+                                "id": "1111"
+                            },
+                            "value": {
+                                "width": 6,
+                                "depth": 6,
+                                "height": 15
+                            },
+                            "sizeConstraint": {
+                                "min": {
+                                    "width": 6,
+                                    "depth": 6,
+                                    "height": 15
+                                },
+                                "max": {
+                                    "width": 6,
+                                    "depth": 6,
+                                    "height": 17
+                                }
+                            },
+                            "type": "String",
+                            "friendlyType": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Coca cola drink XL size"
+                                }
+                            ]
+                        },
+                        "shapes": [
+                            {
+                                "tenant": {
+                                    "id": "1111"
+                                },
+                                "value": "PHYSICAL",
+                                "type": "String",
+                                "friendlyType": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "XL cartoon glass"
+                                    }
+                                ]
+                            }
+                        ],
+                        "deliveryOptions": [
+                            {
+                                "value": "Value of delivery",
+                                "type": "Type of delivery",
+                                "friendlyType": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Fast and quality deliverance"
+                                    }
+                                ],
+                                "tenant": {
+                                    "id": "1111"
+                                }
+                            }
+                        ],
+                        "defaultScu": {
+                            "name": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Xl size of fanta drink"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Fanta drink XL size"
+                                }
+                            ],
+                            "longDescription": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "700 milliliters cartoon glass of some drink "
+                                }
+                            ],
+                            "activeStartDate": "2019-04-19T14:35:14.732628+03:00",
+                            "activeEndDate": "2019-04-29T14:35:14.732612+03:00",
+                            "order": 9999,
+                            "defaultProduct": {
+                                "refId": "123456"
+                            },
+                            "products": [
+                                {
+                                    "refId": "fanta id"
+                                },
+                                {
+                                    "refId": "sprite id"
+                                }
+                            ],
+                            "currentAvailability": 20,
+                            "size": {
+                                "tenant": {
+                                    "id": "1111"
+                                },
+                                "value": {
+                                    "width": 5,
+                                    "depth": 5,
+                                    "height": 5
+                                },
+                                "sizeConstraint": {
+                                    "min": {
+                                        "width": 5,
+                                        "depth": 5,
+                                        "height": 5
+                                    },
+                                    "max": {
+                                        "width": 5,
+                                        "depth": 5,
+                                        "height": 5
+                                    }
+                                },
+                                "type": "XL",
+                                "friendlyType": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "XL Glass"
+                                    }
+                                ]
+                            }
+                        },
+                        "additionalScus": [
+                            {
+                                "name": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "M size of fanta drink"
+                                    }
+                                ],
+                                "description": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Fanta drink M size"
+                                    }
+                                ],
+                                "longDescription": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "300 milliliters cartoon glass of some drink "
+                                    }
+                                ],
+                                "activeStartDate": "2019-04-19T14:35:14.732628+03:00",
+                                "activeEndDate": "2019-04-29T14:35:14.732612+03:00",
+                                "order": 9999,
+                                "defaultProduct": {
+                                    "refId": "123456"
+                                },
+                                "products": [
+                                    {
+                                        "refId": "fanta id"
+                                    },
+                                    {
+                                        "refId": "sprite id"
+                                    }
+                                ],
+                                "currentAvailability": 20,
+                                "size": {
+                                    "tenant": {
+                                        "id": "1111"
+                                    },
+                                    "value": {
+                                        "width": 5,
+                                        "depth": 5,
+                                        "height": 5
+                                    },
+                                    "sizeConstraint": {
+                                        "min": {
+                                            "width": 5,
+                                            "depth": 5,
+                                            "height": 5
+                                        },
+                                        "max": {
+                                            "width": 5,
+                                            "depth": 5,
+                                            "height": 5
+                                        }
+                                    },
+                                    "type": "M",
+                                    "friendlyType": [
+                                        {
+                                            "language": "EN",
+                                            "textValue": "M Glass"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "name": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "L size of Fanta drink"
+                                    }
+                                ],
+                                "description": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Fanta drink L size"
+                                    }
+                                ],
+                                "longDescription": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "500 milliliters cartoon glass of some drink "
+                                    }
+                                ],
+                                "activeStartDate": "2019-04-19T14:35:14.732628+03:00",
+                                "activeEndDate": "2019-04-29T14:35:14.732612+03:00",
+                                "order": 9999,
+                                "defaultProduct": {
+                                    "refId": "123456"
+                                },
+                                "products": [
+                                    {
+                                        "refId": "fanta id"
+                                    },
+                                    {
+                                        "refId": "sprite id"
+                                    }
+                                ],
+                                "currentAvailability": 20,
+                                "size": {
+                                    "tenant": {
+                                        "id": "1111"
+                                    },
+                                    "value": {
+                                        "width": 5,
+                                        "depth": 5,
+                                        "height": 5
+                                    },
+                                    "sizeConstraint": {
+                                        "min": {
+                                            "width": 5,
+                                            "depth": 5,
+                                            "height": 5
+                                        },
+                                        "max": {
+                                            "width": 5,
+                                            "depth": 5,
+                                            "height": 5
+                                        }
+                                    },
+                                    "type": "L",
+                                    "friendlyType": [
+                                        {
+                                            "language": "EN",
+                                            "textValue": "L Glass"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "upSaleProducts": [],
+                "crossSaleProducts": [],
+                "featureProduct": [],
+                "inventoryType": {
+                    "value": "AVAILABLE",
+                    "type": "String",
+                    "friendlyType": [
+                        {
+                            "language": "EN",
+                            "textValue": "Inventory type for cold non-alcoholic drinks"
+                        }
+                    ],
+                    "isRemoved": false,
+                    "tenant": {
+                        "id": "1111"
+                    }
+                },
+                "url": "some_company/catalog/category/drinks/cold",
+                "urlKey": "some_url_key",
+                "overrideGeneratedUrl": false,
+                "taxCode": "",
+                "externalId": "GFH123"
+            },
+            {
+                "name": [
+                    {
+                        "language": "EN",
+                        "textValue": "Hot non-alcoholic drinks"
+                    }
+                ],
+                "description": [
+                    {
+                        "language": "EN",
+                        "textValue": "Valid unique (for this array) text without html tags"
+                    }
+                ],
+                "longDescription": [
+                    {
+                        "language": "EN",
+                        "textValue": "Valid unique (for this array) loooooooooooong text without html tags"
+                    }
+                ],
+                "activeStartDate": "2019-04-19T14:35:14.734222+03:00",
+                "activeEndDate": "2019-04-29T14:35:14.7342+03:00",
+                "products": [
+                    {
+                    "parts": [
+                        {
+                            "name": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Coffee"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Valid text without html tags"
+                                }
+                            ],
+                            "longDescription": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Valid very loooooong text without html tags"
+                                }
+                            ],
+                            "scu": {
+                                "refId": "123456"
+                            },
+
+                            "currentAvailability": 10,
+                            "defaultQuantity": 10,
+                            "minQuantity": 10,
+                            "maxQuantity": 10,
+
+                            "primaryPartType": {
+                                "value": "BASE",
+                                "type": "String",
+                                "isRemoved": false,
+                                "friendlyType": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Coffee liquid"
+                                    }
+                                ]
+                            },
+
+                            "isRemoved": false
+                        }
+                    ],
+                    "url": "some_company/catalog/category/drinks/hot/coffee",
+                    "generatedUrl": "/some_company/catalog/category/drinks/hot/coffee/id",
+                    "externalId": "coffeecoffee1",
+                    "activeStartDate": "2019-02-25T14:21:25.616254+02:00",
+                    "activeEndDate": "2019-03-07T14:21:25.61577+02:00",
+                    "isArchived": false,
+                    "name": [
+                        {
+                            "language": "EN",
+                            "textValue": "Coffee"
+                        }
+                    ],
+                    "description": [
+                        {
+                            "language": "EN",
+                            "textValue": "Valid text without html tags"
+                        }
+                    ],
+                    "longDescription": [
+                        {
+                            "language": "EN",
+                            "textValue": "Valid loooooooooooong text without html tags"
+                        }
+                    ],
+                    "isFeaturedProduct": false,
+                    "overrideGeneratedUrl": false,
+                    "isRemoved": false,
+                    "size": {
+                        "tenant": {
+                            "id": "1111"
+                        },
+                        "value": {
+                            "width": 6,
+                            "depth": 6,
+                            "height": 15
+                        },
+                        "sizeConstraint": {
+                            "min": {
+                                "width": 6,
+                                "depth": 6,
+                                "height": 15
+                            },
+                            "max": {
+                                "width": 6,
+                                "depth": 6,
+                                "height": 17
+                            }
+                        },
+                        "type": "String",
+                        "friendlyType": [
+                            {
+                                "language": "EN",
+                                "textValue": "Coffee drink XL size"
+                            }
+                        ]
+                    },
+                    "shapes": [
+                        {
+                            "tenant": {
+                                "id": "1111"
+                            },
+                            "value": "PHYSICAL",
+                            "type": "String",
+                            "friendlyType": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "XL cup of hot drink"
+                                }
+                            ]
+                        }
+                    ],
+                    "deliveryOptions": [
+                        {
+                            "value": "Value of delivery",
+                            "type": "Type of delivery",
+                            "friendlyType": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Fast and quality deliverance"
+                                }
+                            ],
+                            "tenant": {
+                                "id": "1111"
+                            }
+                        }
+                    ],
+                    "defaultScu": {
+                        "name": [
+                            {
+                                "language": "EN",
+                                "textValue": "Xl size of coffee drink"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "language": "EN",
+                                "textValue": "Coffee drink XL size"
+                            }
+                        ],
+                        "longDescription": [
+                            {
+                                "language": "EN",
+                                "textValue": "700 milliliters cup of some drink "
+                            }
+                        ],
+                        "activeStartDate": "2019-04-19T14:35:14.732628+03:00",
+                        "activeEndDate": "2019-04-29T14:35:14.732612+03:00",
+                        "order": 9999,
+                        "defaultProduct": {
+                            "refId": "123456"
+                        },
+                        "products": [
+                            {
+                                "refId": "capuchino id"
+                            },
+                            {
+                                "refId": "americano id"
+                            }
+                        ],
+                        "currentAvailability": 20,
+                        "size": {
+                            "tenant": {
+                                "id": "1111"
+                            },
+                            "value": {
+                                "width": 5,
+                                "depth": 5,
+                                "height": 5
+                            },
+                            "sizeConstraint": {
+                                "min": {
+                                    "width": 5,
+                                    "depth": 5,
+                                    "height": 5
+                                },
+                                "max": {
+                                    "width": 5,
+                                    "depth": 5,
+                                    "height": 5
+                                }
+                            },
+                            "type": "XL",
+                            "friendlyType": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "XL Glass"
+                                }
+                            ]
+                        }
+                    },
+                    "additionalScus": [
+                        {
+                            "name": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "M size of coffee drink"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Coffee drink M size"
+                                }
+                            ],
+                            "longDescription": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "300 milliliters cup of some drink "
+                                }
+                            ],
+                            "activeStartDate": "2019-04-19T14:35:14.732628+03:00",
+                            "activeEndDate": "2019-04-29T14:35:14.732612+03:00",
+                            "order": 9999,
+                            "defaultProduct": {
+                                "refId": "123456"
+                            },
+                            "products": [
+                                {
+                                    "refId": "capuchino id"
+                                },
+                                {
+                                    "refId": "americano id"
+                                }
+                            ],
+                            "currentAvailability": 20,
+                            "size": {
+                                "tenant": {
+                                    "id": "1111"
+                                },
+                                "value": {
+                                    "width": 5,
+                                    "depth": 5,
+                                    "height": 5
+                                },
+                                "sizeConstraint": {
+                                    "min": {
+                                        "width": 5,
+                                        "depth": 5,
+                                        "height": 5
+                                    },
+                                    "max": {
+                                        "width": 5,
+                                        "depth": 5,
+                                        "height": 5
+                                    }
+                                },
+                                "type": "M",
+                                "friendlyType": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "M Glass"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "name": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "L size of Coffee drink"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Coffee drink L size"
+                                }
+                            ],
+                            "longDescription": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "500 milliliters cup of some drink "
+                                }
+                            ],
+                            "activeStartDate": "2019-04-19T14:35:14.732628+03:00",
+                            "activeEndDate": "2019-04-29T14:35:14.732612+03:00",
+                            "order": 9999,
+                            "defaultProduct": {
+                                "refId": "123456"
+                            },
+                            "products": [
+                                {
+                                    "refId": "capuchino id"
+                                },
+                                {
+                                    "refId": "americano id"
+                                }
+                            ],
+                            "currentAvailability": 20,
+                            "size": {
+                                "tenant": {
+                                    "id": "1111"
+                                },
+                                "value": {
+                                    "width": 5,
+                                    "depth": 5,
+                                    "height": 5
+                                },
+                                "sizeConstraint": {
+                                    "min": {
+                                        "width": 5,
+                                        "depth": 5,
+                                        "height": 5
+                                    },
+                                    "max": {
+                                        "width": 5,
+                                        "depth": 5,
+                                        "height": 5
+                                    }
+                                },
+                                "type": "L",
+                                "friendlyType": [
+                                    {
+                                        "language": "EN",
+                                        "textValue": "L Glass"
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "tenant": {
+                        "id": "1111"
+                    }
+                }],
+                "upSaleProducts": [],
+                "crossSaleProducts": [],
+                "featureProduct": [],
+                "inventoryType": {
+                    "value": "AVAILABLE",
+                    "type": "String",
+                    "friendlyType": [
+                        {
+                            "language": "EN",
+                            "textValue": "Inventory type for hot non-alcoholic drinks"
+                        }
+                    ],
+                    "isRemoved": false,
+                    "tenant": {
+                        "id": "1111"
+                    },
+                    "url": "catalog/category/drinks/hot",
+                    "urlKey": "some_url_key",
+                    "overrideGeneratedUrl": false,
+                    "taxCode": "",
+                    "externalId": "GFH312"
+                },
+                "externalId":"GFH124"
+            }
+        ]
+    }
+]

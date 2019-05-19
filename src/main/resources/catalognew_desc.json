@@ -1,0 +1,263 @@
+[
+    { // корньова категорія
+        "name": [
+            {
+                "language": "EN",  //язик зі словнику ("EN","UA", etc)
+                "textValue": "Root drinks category" //назва категоріі
+            }
+        ],
+        "description": [
+            {
+                "language": "EN", //язик зі словнику ("EN","UA", etc)
+                "textValue": "valid text without html tags" // краткий опис категоріі
+            }
+        ],
+        "longDescription": [
+            {
+                "language": "EN", //язик зі словнику ("EN","UA", etc)
+                "textValue": "valid loooooooooooong text without html tags" // повний опис категоріі
+            }
+        ],
+        "activeStartDate": "2019-04-19T14:35:14.734222+03:00", // дата початку активності категорії (поточка дата по замовчуванню)
+        "activeEndDate": "2019-04-29T14:35:14.7342+03:00", // дата кінця активності категорії (поточка дата по замовчуванню)
+        "inventoryType": { // тип инвентори зі словнику (список словників буде запроваджено з сервісами по їх менеджменту)
+            "id": "1111"
+        },
+        "taxCode": "a43", // код оподактування (може бути порожнім)
+        "externalId": "GFH543", // код товару з системи 1С
+        "childCategories": [ //вкладені дочерні категорії (структура аналогічна описаної вище)
+            {
+                "name": [
+                    {
+                        "language": "EN",
+                        "textValue": "Cold non-alcoholic drinks"
+                    }
+                ],
+                "description": [
+                    {
+                        "language": "EN",
+                        "textValue": "Valid text without html tags"
+                    }
+                ],
+                "longDescription": [
+                    {
+                        "language": "EN",
+                        "textValue": "Valid loooooooooooong text without html tags"
+                    }
+                ],
+                "activeStartDate": "2019-04-19T14:35:14.734222+03:00",
+                "activeEndDate": "2019-04-29T14:35:14.7342+03:00",
+                "products": [ //колекція продуктів якщо вона існує для цієї категорії
+                    {
+                        "parts": [ // частини з яких складається продукт
+                            {
+                                "name": [ //назва частини
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Coca-cola"
+                                    }
+                                ],
+                                "description": [ // краткий опис частини
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Valid text without html tags"
+                                    }
+                                ],
+                                "longDescription": [ // повний опис
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Valid very loooooong text without html tags"
+                                    }
+                                ],
+                                "currentAvailability": 10, // кількість частин в наявності
+                                "defaultQuantity": 10, // кількість частин в продукті по замовчанню
+                                "minQuantity": 10, // мінімальна кількість частин в продукті
+                                "maxQuantity": 10, // максимальна кількість частин в продукті
+
+                                "primaryPartType": { // первинний тип частини зі словника (сервіси по менеджементу словника будуть описані окремо)
+                                    "id": "1111"
+                                },
+
+                            }
+                        ],
+                        
+                        "externalId": "coldcola1",
+                        "activeStartDate": "2019-02-25T14:21:25.616254+02:00",
+                        "activeEndDate": "2019-03-07T14:21:25.61577+02:00",
+                        "isArchived": false, // ознака архївної категоріі
+                        "name": [
+                            {
+                                "language": "EN",
+                                "textValue": "Cola"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "language": "EN",
+                                "textValue": "Valid text without html tags"
+                            }
+                        ],
+                        "longDescription": [
+                            {
+                                "language": "EN",
+                                "textValue": "Valid loooooooooooong text without html tags"
+                            }
+                        ],
+                        "isFeaturedProduct": false, //ознака рекомендованого продукту
+                        "size": {// розмір продукта якщо така ознака присутня зі словника (сервіси по менеджементу словника будуть описані окремо)
+                            "id": "1234"
+                        },
+                        "shapes": [ // форма продукта якщо така ознака присутня зі словника (сервіси по менеджементу словника будуть описані окремо)
+                            {
+                                "id": "12345"
+                            }
+                        ],
+                        "deliveryOptions": [ // опції доставки продукта якщо  зі словника (сервіси по менеджементу словника будуть описані окремо)
+                            {
+                                "id": "1111"
+                            }
+                        ],
+                        "defaultScu": { // опис SKU по замовчуванню
+                            "name": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Xl size of coca-cola drink"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Coca cola drink XL size"
+                                }
+                            ],
+                            "longDescription": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "700 milliliters cartoon glass of some drink "
+                                }
+                            ],
+                            "activeStartDate": "2019-04-19T14:35:14.732628+03:00",
+                            "activeEndDate": "2019-04-29T14:35:14.732612+03:00"
+                      
+                            "currentAvailability": 20, //кількість у наявності
+                            "size": {// розмір продукта якщо така ознака присутня зі словника (сервіси по менеджементу словника будуть описані окремо)
+                            "id": "1234"
+							},
+                        },
+                 
+                    },
+                    {
+                        "parts": [ // частини з яких складається продукт
+                            {
+                                "name": [ //назва частини
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Coca-cola"
+                                    }
+                                ],
+                                "description": [ // краткий опис частини
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Valid text without html tags"
+                                    }
+                                ],
+                                "longDescription": [ // повний опис
+                                    {
+                                        "language": "EN",
+                                        "textValue": "Valid very loooooong text without html tags"
+                                    }
+                                ],
+                                "currentAvailability": 10, // кількість частин в наявності
+                                "defaultQuantity": 10, // кількість частин в продукті по замовчанню
+                                "minQuantity": 10, // мінімальна кількість частин в продукті
+                                "maxQuantity": 10, // максимальна кількість частин в продукті
+
+                                "primaryPartType": { // первинний тип частини зі словника (сервіси по менеджементу словника будуть описані окремо)
+                                    "id": "1111"
+                                },
+
+                            }
+                        ],
+                        
+                        "externalId": "fantafanta1",
+                        "activeStartDate": "2019-02-25T14:21:25.616254+02:00",
+                        "activeEndDate": "2019-03-07T14:21:25.61577+02:00",
+                       
+                        "name": [
+                            {
+                                "language": "EN",
+                                "textValue": "Fanta"
+                            }
+                        ],
+                        "description": [
+                            {
+                                "language": "EN",
+                                "textValue": "Valid text without html tags"
+                            }
+                        ],
+                        "longDescription": [
+                            {
+                                "language": "EN",
+                                "textValue": "Valid loooooooooooong text without html tags"
+                            }
+                        ],
+                        "isFeaturedProduct": false,
+                        
+                        "size": {// розмір продукта якщо така ознака присутня зі словника (сервіси по менеджементу словника будуть описані окремо)
+                            "id": "1234"
+                        },
+                        "shapes": [ // форма продукта якщо така ознака присутня зі словника (сервіси по менеджементу словника будуть описані окремо)
+                            {
+                                "id": "12345"
+                            }
+                        ],
+                        "deliveryOptions": [ // опції доставки продукта   зі словника (сервіси по менеджементу словника будуть описані окремо)
+                            {
+                                "id": "1111"
+                            }
+                        ],
+                        "defaultScu": {
+                            "name": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Xl size of fanta drink"
+                                }
+                            ],
+                            "description": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "Fanta drink XL size"
+                                }
+                            ],
+                            "longDescription": [
+                                {
+                                    "language": "EN",
+                                    "textValue": "700 milliliters cartoon glass of some drink "
+                                }
+                            ],
+                            "activeStartDate": "2019-04-19T14:35:14.732628+03:00",
+                            "activeEndDate": "2019-04-29T14:35:14.732612+03:00",
+                            
+                            "currentAvailability": 20,
+                            "size": {
+                                "id": "1111"
+                               
+                            }
+                        }
+                        
+                    }
+                ],
+                "upSaleProducts": [], 
+                "crossSaleProducts": [],
+                "featureProduct": [],
+                "inventoryType": {  тип інвенторі зі словника (сервіси по менеджементу словника будуть описані окремо)
+                    "id": "123"
+                },
+                "taxCode": "",
+                "externalId": "GFH123"
+            } 
+			// інші  дочерні категорії
+            
+        ]
+    }
+]
